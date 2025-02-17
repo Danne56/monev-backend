@@ -46,7 +46,7 @@ Before running the application, ensure you have the following installed:
      ```
     - Create a unique index for email:
 	  ```sql
-	  CREATE UNIQUE INDEX idx_users_email ON users ((data->>'email'))
+	  CREATE UNIQUE INDEX idx_users_email ON users ((data->>'email'));
 	  ```
 
 5. Start the server:
